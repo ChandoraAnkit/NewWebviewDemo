@@ -1,0 +1,60 @@
+<!-- A Kite button will be generated inside this container //-->
+<p id="default-button"> </p>
+
+<!-- The basket will be linked to this element's onClick //-->
+<button id="custom-button" width = "100%" height ="100%" >Continue to zerodha...</button>
+
+<!-- Include the plugin //-->
+<script src="https://kite.trade/publisher.js?v=3">
+
+</script>
+
+<!--<script>-->
+<!--// Only run your custom code once KiteConnect has fully initialised.-->
+<!--// Use KiteConnect.ready() to achieve this.-->
+<!--KiteConnect.ready(function() {-->
+    <!--// Initialize a new Kite instance.-->
+    <!--// You can initialize multiple instances if you need.-->
+    <!--var kite = new KiteConnect("o3ju0z4izdbsbonp");-->
+
+    <!--// Add a stock to the basket-->
+
+    <!--// Add another stock-->
+
+    <!--kite.add({-->
+        <!--"exchange": "NSE",-->
+        <!--"tradingsymbol": "SBIN",-->
+        <!--"quantity": 1,-->
+        <!--"order_type": "LIMIT",-->
+        <!--"transaction_type": "SELL",-->
+        <!--"price": 105-->
+    <!--});-->
+
+    <!--// Add a Bracket Order-->
+    <!--kite.add({-->
+        <!--"tradingsymbol": "RELIANCE",-->
+        <!--"exchange": "NSE",-->
+        <!--"transaction_type": "BUY",-->
+        <!--"order_type": "LIMIT",-->
+        <!--"product": "MIS",-->
+        <!--"price": 915.15,-->
+        <!--"quantity": 1,-->
+        <!--"variety": "bo",-->
+        <!--"stoploss": 5,-->
+        <!--"squareoff": 7,-->
+        <!--"trailing_stoploss": 1.5,-->
+        <!--"readonly": true-->
+    <!--});-->
+
+    <!--// Register an (optional) callback.-->
+    <!--kite.finished(function(status, request_token) {-->
+        <!--alert("Finished. Status is " + status);-->
+    <!--});-->
+
+    <!--// Render the in-built button inside a given target-->
+    <!--kite.renderButton("#default-button");-->
+
+    <!--// OR, link the basket to any existing element you want-->
+    <!--kite.link("#custom-button");-->
+<!--});-->
+<!--</script>-->
